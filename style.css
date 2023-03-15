@@ -1,47 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d3142;
+  color: #ffffff;
+  padding: 1rem;
+}
+
 .container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-}
-
-#high-score {
-  display: none;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#inital-mes {
-  display: none;
-}
-
-#landing-page {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#landing-page h1 {
-  font-size: 3rem;
-  margin-bottom: 2rem;
-}
-
-#start-btn {
-  background-color: #4287f5;
-  color: white;
-  font-size: 1.5rem;
-  padding: 1rem 2rem;
-  border: none;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-}
-
-#start-btn:hover {
-  background-color: #357ae8;
+  min-height: 80vh;
+  width: 100%;
 }
 
 #question1,
@@ -51,79 +30,71 @@
   display: none;
 }
 
-ul li {
-  list-style-type: none;
+#high-score {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-#q1-options li:hover,
-#q2-options li:hover,
-#q3-options li:hover,
-#q4-options li:hover {
-  background-color: yellow;
-  cursor: pointer;
+#inital-mes {
+  display: none;
+}
+
+#scoresheet {
+  display: none;
 }
 
 #message {
-  background-color: yellow;
+  font-size: 1.5rem;
+  color: #2d3142;
+  margin-top: 1rem;
+}
+
+button {
+  background-color: #ef8354;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #d74e3a;
 }
 
 #my-form {
   display: none;
-}
-
-/* add some general styling to the form */
-form {
-  display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
-  background-color: #f7f7f7;
-  border: 1px solid #ddd;
-  border-radius: 5px;
 }
 
 label {
+  font-size: 1.2rem;
+  color: #2d3142;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+
+li:hover {
+  color: #ef8354;
   font-weight: bold;
-  margin-bottom: 10px;
-}
-
-input[type="text"] {
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #ddd;
-  margin-bottom: 10px;
-}
-
-button[type="submit"] {
-  padding: 5px 20px;
-  border-radius: 5px;
-  border: none;
-  background-color: #4caf50;
-  color: white;
-  cursor: pointer;
-}
-
-button[type="submit"]:hover {
-  background-color: #3e8e41;
-}
-
-/* CSS styles for the score elements */
-#high-score h2 {
-  font-size: 24px;
-  margin: 10px 0;
-}
-
-/* CSS styles for the reset button */
-#high-score button {
-  background-color: #4caf50;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-top: 20px;
-}
-
-#high-score button:hover {
-  background-color: #3e8e41;
 }
