@@ -12,15 +12,18 @@ This project is a simple multiple-choice quiz app built with HTML, CSS, and Java
 
 ## How to Use
 
-1. Clone the repository or download the source code.
-2. Open the `index.html` file in your browser.
-3. Click the "Start" button to start the quiz.
-4. Answer the questions by clicking on the options.
-5. Submit your name after completing the questions or when the time runs out.
-6. Check your score and compare it to the high scores by clicking the "High Score" button.
+You can visit this app through the following link:
+
+https://dgzcsxwd.github.io/Timed-Quiz/
 
 ## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
+
+![截屏2023-03-15 下午8 56 42](https://user-images.githubusercontent.com/122780020/225274633-8c1f32ce-ff90-4675-935c-5a62fdf474b1.png)
+![截屏2023-03-15 下午8 56 59](https://user-images.githubusercontent.com/122780020/225274667-ada84ec3-9fdd-40f4-9e65-52adae1023ff.png)
+![截屏2023-03-15 下午8 58 25](https://user-images.githubusercontent.com/122780020/225274696-8b14fd93-cd77-42fb-a4fb-510d3a4e96e3.png)
+![截屏2023-03-15 下午8 58 39](https://user-images.githubusercontent.com/122780020/225274726-c9ca32dd-7ce4-4445-85e0-84a5a31d38f0.png)
+
